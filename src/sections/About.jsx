@@ -88,9 +88,9 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Open To Work</p>
             <p className="subtext">
-              Looking for Entry-Level Opportunities
-              Contact - +91 9404573059 
-              Gmail - bhagyeshpatil789@gmail.com
+                Looking for Entry-Level Opportunities<br />
+                Contact - +91 9404573059<br />
+                Gmail - bhagyeshpatil789@gmail.com
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
