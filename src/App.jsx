@@ -6,7 +6,7 @@ import Projects from "./sections/Projects";
 import Experiences from "./sections/Experiences";
 import Contact from "./sections/Contact";
 import Footer from './sections/Footer';
-import { SpeedInsights } from "@vercel/speed-insights/react"; // ✅ import it
+import { SpeedInsights } from "@vercel/speed-insights/react";  
 
 const App = () => {
   return (
