@@ -11,7 +11,7 @@ export function DownloadResume() {
 
     const link = document.createElement("a");
     link.href = "/resume.pdf";
-    link.download = "My_Resume.pdf";
+    link.download = "BhagyeshPatilCV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
