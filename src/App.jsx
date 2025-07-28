@@ -6,11 +6,13 @@ import Projects from "./sections/Projects";
 import Experiences from "./sections/Experiences";
 import Contact from "./sections/Contact";
 import Footer from './sections/Footer';
-import { SpeedInsights } from "@vercel/speed-insights/react";
+import { SpeedInsights } from "@vercel/speed-insights/react"; // ✅ import it
 
 const App = () => {
   return (
     <>
+      <SpeedInsights /> {/* ✅ tracks performance */}
+
       <div className="container mx-auto max-w-7xl">
         <Navbar />
         <Hero />
@@ -20,9 +22,6 @@ const App = () => {
         <Contact />
         <Footer />
       </div>
-
-      {/* Vercel performance tracking */}
-      <SpeedInsights />
     </>
   );
 };
